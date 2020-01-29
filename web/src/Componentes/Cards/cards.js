@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, CardDeck, } from 'react-bootstrap';
+import img1 from './Imagem/img1.jpg';
 
 
 export default function Cards(){
@@ -8,7 +9,7 @@ export default function Cards(){
         <>
             <CardDeck>
   <Card>
-    <Card.Img variant="top" src="" />
+    <Card.Img variant="top" src={img1} />
     <Card.Body>
       <Card.Title>Site 01</Card.Title>
       <Card.Text>

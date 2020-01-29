@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, Button } from 'react-bootstrap';
 
 
-export default function Form(){
+export default function Form1(){
     return(
         <>
             <Form>

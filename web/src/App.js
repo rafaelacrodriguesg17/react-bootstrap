@@ -1,10 +1,11 @@
 import React from 'react';
 import Menu from './Componentes/navbar/menu';
-import Jumb from './Componentes/Jumbotron/jumbotron';
+import Jumb from './Componentes/Jumbotron/jumb';
 import Card from './Componentes/Cards/cards';
 import Caro from './Componentes/Carousel/carousel';
 import Jumb2 from './Componentes/Jumbotron/jumbotrom2';
-import Form from './Componentes/Formaulario/formulario';
+import Form1 from './Componentes/Formaulario/formulario';
+
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
 
         <Caro />
 
-        <Form />
+        <Form1 />
     </>
   );
 }

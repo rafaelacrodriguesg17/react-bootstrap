@@ -8,11 +8,11 @@ export default function Menu(){
         <>
             <Navbar bg="dark" variant="dark">
                 
-                <Navbar.Brand href="#home">Luis G Azevedo</Navbar.Brand>
+                <Navbar.Brand href="#home">Pônei Saltitante</Navbar.Brand>
                 <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#features">Contato</Nav.Link>
-                <Nav.Link href="#pricing">Serviços/Portfólio</Nav.Link>
+                <Nav.Link href="#pricing">Reservas</Nav.Link>
                 </Nav>
                 
             </Navbar>

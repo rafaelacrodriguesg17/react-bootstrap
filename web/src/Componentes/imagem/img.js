@@ -1,12 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Jumbotron, Badge } from 'react-bootstrap';
-
+import image from 'imagem-dp-top.jpg';
 
 export default function img1(){
     return(
         <>
-            <Image src="holder.js/100px250" fluid />
+            <Image src={img1} fluid />
         </>
     );
 }

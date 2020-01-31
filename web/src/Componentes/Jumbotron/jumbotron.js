@@ -7,6 +7,7 @@ export default function Jumb(){
 
     return(
         <div>
+            
            <Jumbotron fluid>
                 <Container>
                     <h1>Fluid jumbotron</h1>
